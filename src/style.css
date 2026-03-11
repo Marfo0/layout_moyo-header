@@ -113,11 +113,15 @@ body {
     margin-left: 0;
   }
 
-  .list li {
+  .listItem {
     margin-left: 20px;
   }
 
-  .list li:first-child {
+  .listItem:first-child {
     margin-left: 0;
+  }
+
+  .listItem:last-child {
+    margin-right: 0;
   }
 }
